@@ -27,7 +27,7 @@
             android:layout_marginRight="4dp"
             android:layout_marginStart="8dp"/>
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -42,7 +42,7 @@
                 app:srcCompat="@color/transparent"
                 tools:srcCompat="@tools:sample/avatars[0]" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/diseaseTitle"

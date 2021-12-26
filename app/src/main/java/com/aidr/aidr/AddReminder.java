@@ -1,15 +1,10 @@
 package com.aidr.aidr;
 
-import android.app.AlarmManager;
 import android.app.Dialog;
-import android.app.Notification;
-import android.app.PendingIntent;
 import android.app.TimePickerDialog;
-import android.content.Context;
-import android.content.Intent;
-import android.os.SystemClock;
-import android.support.v4.app.DialogFragment;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.fragment.app.DialogFragment;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -21,10 +16,6 @@ import android.widget.TimePicker;
 
 import com.aidr.aidr.Model.Reminder;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;

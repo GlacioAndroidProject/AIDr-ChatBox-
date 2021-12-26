@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".AIDrChat"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"
+            android:exported = "true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
